@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Accessibility Patterns for Color Blindness */
+.pattern-dots {
+  background-image: radial-gradient(currentColor 1px, transparent 1px);
+  background-size: 10px 10px;
+}
+
+.pattern-lines {
+  background-image: linear-gradient(45deg, currentColor 1px, transparent 1px);
+  background-size: 10px 10px;
+}
+
+.pattern-grid {
+  background-image: linear-gradient(currentColor 1px, transparent 1px), linear-gradient(90deg, currentColor 1px, transparent 1px);
+  background-size: 10px 10px;
+}
+
+.pattern-waves {
+  background: radial-gradient(circle at 100% 50%, transparent 20%, currentColor 21%, currentColor 34%, transparent 35%, transparent 59%, currentColor 60%, currentColor 74%, transparent 75%);
+  background-size: 20px 40px;
+}

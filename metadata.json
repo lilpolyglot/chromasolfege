@@ -1,0 +1,5 @@
+{
+  "name": "ChromaSolfege",
+  "description": "A musical learning app associating solfege notes with colors, featuring drone learning, memory games, and MIDI support.",
+  "requestFramePermissions": []
+}
